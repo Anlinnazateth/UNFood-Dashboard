@@ -1,34 +1,13 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+.venv/
+venv/
 *.egg-info/
 dist/
 build/
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# Environment
-.env
-.env.local
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Testing
+.streamlit/
 .pytest_cache/
-htmlcov/
 .coverage
-
-# OS
-.DS_Store
-Thumbs.db
+htmlcov/
+.env
